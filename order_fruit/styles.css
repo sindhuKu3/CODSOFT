@@ -1,0 +1,137 @@
+*{
+    margin :0 ; 
+    padding:0 ;
+ 
+}
+.header{
+  background-color: black;
+  height:60px ;
+  display:flex ;
+  align-items: center;
+
+}
+.nav-links{
+  display:flex ;
+  align-items: center;
+ list-style: none;
+padding-left:700px;
+ margin-inline: 1px;
+
+}
+.nav-links li{
+  margin-top: -54px;
+  text-align: end;
+ font-size:30px ;
+ background-color: black;
+  color: white;
+  padding-inline:30px ;
+}
+.back_ground img{
+  background-color: rgb(243, 242, 233);
+    width: 1000px;
+    height: 550px;
+    opacity: 0.7;
+    margin-left: 35px;
+    padding-top: 30px;
+   position:absolute;
+}
+.info{
+
+  position :absolute;
+  top:79px ;
+  left: 72px;
+  width:400px;
+ 
+}
+.info h1{
+  font-size:50px ;
+  color:rgb(232, 69, 69);
+  background-color: rgb(243, 241, 229);
+  line-height: 46px;
+  padding-bottom:10px ;
+  font-family: 'Mea Culpa', cursive;
+  font-weight: bolder;
+
+}
+.info p{
+  font-size:20px ;
+  color:white;
+  text-shadow: 2px 2px 2px  rgb(102, 56, 21) ;
+  font-weight:bolder ;
+  background-color:  rgb(239, 243, 229);
+}
+.info button{
+  width:80px ;
+  height:40px ;
+ margin-top:30px ;
+ background-color: blue;
+ border-radius: 20px ;
+ border-style: none;
+ color:white;
+ font-weight:bolder ;
+}
+.side-image img{
+  width:200px ;
+  height:550px ;
+  padding-left: 1035px;
+  margin-top: 16px;
+}
+.Value{
+  padding-top: 80px;
+  width:auto ; 
+}
+.Value h1{
+  font-size: 90px ;
+  padding-left:40px ;
+  font-family: 'Mea Culpa', cursive;
+}
+ 
+.block{
+  margin-top:80px;
+  padding-inline: 40px;
+  display:flex ; 
+  
+}
+.container{
+  width:250px ;
+  height:350px ;
+  border:solid black 2px ;
+  margin-inline: 4px ;
+  border-radius: 10px;
+  margin-bottom:40px ;
+  text-align: center;
+  box-shadow: 3px 3px 10px rgb(18, 16, 16);
+  
+}
+.container h1{
+  height:100px ;
+  font-size: 30px;
+background-color: rgb(243, 73, 73);
+padding-left: 1px;
+color: white;
+font-family: 'Mea Culpa', cursive;
+font-weight: bolder;
+padding-inline: 5px;
+
+
+}
+.container p{
+  padding-top: 13px;
+ font-family: cursive;
+}
+footer{
+  background-color: black;
+  height:90px ;
+}
+.footer-section{
+  color:white ;
+ background-color: black;
+ display:flex;
+
+}
+.footer-section p{
+  padding-top: 20px;
+  padding-inline: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+}
