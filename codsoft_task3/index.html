@@ -11,39 +11,39 @@
     <div class="arithmatic">
         <h1>Calculate Me😊</h1>
     <div class="calculator">
-        
-        <form>
+ 
            <div>
-            <input type="text" name="screen" class="screen">  
+            <input type="text" class="screen">  
            </div>
            <div class="input">
             <div >
-            <input type="button" value="AC" onclick="screen.value= '' ">
-            <input type="button" value="X" onclick="screen.value= screen.value.toString().slice(0,-1)">
-            <input type="button" value="%" onclick="screen.value += '%' ">
-            <input type="button" value="/" onclick="screen.value += '/' ">
+           <button class="button">AC</button>
+           <button class="button">/</button>
+           <button class="button">%</button>
+           <button class="button">=</button>
            </div>
            <div>
-            <input type="button" value="1" onclick="screen.value += '1' ">
-            <input type="button" value="2" onclick="screen.value += '2' ">
-            <input type="button" value="3" onclick="screen.value += '3' ">
-            <input type="button" value="*" onclick="screen.value += '*' ">
+            <button class="button">1</button>
+           <button class="button">2</button>
+           <button class="button">3</button>
+           <button class="button">*</button>
            </div>
            <div>
-            <input type="button" value="4" onclick="screen.value += '4' ">
-            <input type="button" value="5" onclick="screen.value+= '5' ">
-            <input type="button" value="6" onclick="screen.value += '6' ">
-            <input type="button" value="+" onclick="screen.value += '+' ">
+            <button class="button">4</button>
+            <button class="button">5</button>
+            <button class="button">6</button>
+            <button class="button">+</button>
            </div>
            <div>
-            <input type="button" value="7" onclick="screen.value+= '7' ">
-            <input type="button" value="8" onclick="screen.value += '8' ">
-            <input type="button" value="9" onclick="screen.value += '9' ">
-            <input type="button" value="=" onclick="screen.value = eval(screen.value)">
+            <button class="button">7</button>
+            <button class="button">8</button>
+            <button class="button">9</button>
+            <button class="button">-</button>
            </div>
         </div>
-        </form>
+   
     </div>
 </div>
+<script src="app.js"></script>
 </body>
 </html>
