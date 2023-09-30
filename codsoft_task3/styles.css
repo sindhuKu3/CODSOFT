@@ -34,7 +34,8 @@ padding-bottom:30px ;
     height:70px ;
     margin-left: 22px;
    margin-block:30px;
-   font-size:50px;
+   font-size:25px;
+   padding-inline:10px ;
    background-color: rgb(188, 209, 226);
    border-style:none ;
 }
